@@ -1,0 +1,7 @@
+{
+  "name": "AutoDominio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
