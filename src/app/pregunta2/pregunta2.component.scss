@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Toma toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;      /* Centra el contenido verticalmente */
+    flex-direction: column;   /* Coloca los elementos en una columna */
+  }
+  
+  /* Contenedor del juego */
+  #game-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;  /* Ocupa un 90% del ancho de la pantalla */
+    max-width: 350px; /* Ancho máximo de 350px para que no se estire demasiado */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;   /* Organiza los elementos de manera vertical */
+    justify-content: center;  /* Centra los elementos dentro del contenedor */
+    align-items: center;      /* Alinea los elementos al centro */
+    text-align: center;       /* Alinea el texto al centro */
+  }
+  
+  /* Título de la pregunta */
+  #question-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Descripción de la pregunta */
+  #question-description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  /* Estilos de los botones de las opciones */
+  #options-container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .option-button {
+    background-color: #ecb130;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;   /* Hace que el botón ocupe todo el ancho disponible */
+    font-size: 18px;
+    margin: 8px 0;  /* Añade espacio entre los botones */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #b66936;
+  }
+  
+  /* Respuesta correcta o incorrecta */
+  #result-container {
+    display: none;
+    margin-top: 20px;
+  }
+  

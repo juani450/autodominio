@@ -1,0 +1,22 @@
+<div id="game-container">
+  <!-- Pantalla de pregunta -->
+  <div id="question-container">
+    <h1 id="question-title">{{ currentQuestion.question }}</h1>
+    <p id="question-description">Elige una opción:</p>
+  </div>
+
+  <!-- Opciones de respuestas -->
+  <div id="options-container">
+    <button class="option-button">
+      {{ currentQuestion.options[0] }}
+    </button>
+    <button class="option-button">
+      {{ currentQuestion.options[1] }}
+    </button>
+    <button class="option-button">
+      {{ currentQuestion.options[2] }}
+    </button>
+  </div>
+
+  <ion-button (click)="goToResultado()">Siguiente</ion-button>
+</div>

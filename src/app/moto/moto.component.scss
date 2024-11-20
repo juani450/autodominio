@@ -1,0 +1,54 @@
+/* Estilo global para el contenedor */
+#container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el título principal */
+  #container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);  /* Sombra para dar profundidad */
+  }
+  
+  /* Estilos para el subtítulo */
+  #container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;  /* Reduce el margen inferior entre el subtítulo y los botones */
+    font-weight: 500;
+  }
+  
+  /* Estilos para los botones */
+  ion-button {
+    --background: #FFA500;  /* Color de fondo del botón (naranja) */
+    --color: white;  /* Color del texto */
+    --border-radius: 12px; /* Bordes redondeados */
+    --padding-start: 20px;
+    --padding-end: 20px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    margin: 10px 0;  /* Espaciado entre botones */
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra de los botones */
+    transition: background 0.3s ease;  /* Transición para efectos hover */
+  }
+  
+  /* Efecto hover para los botones */
+  ion-button:hover {
+    --background: #FF8C00;  /* Color de fondo al pasar el mouse (naranja más oscuro) */
+  }
+  
+  /* Mejorar la accesibilidad de los botones */
+  ion-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8);  /* Sombra cuando el botón está enfocado */
+  }
+  

@@ -25,6 +25,12 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+
+/* Cambiar el color de fondo de la aplicación */
+:root {
+    --ion-background-color: #ebe5e4;  /* Color de fondo de la app */
+  }
+
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------

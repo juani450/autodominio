@@ -1,4 +1,17 @@
 <div id="container">
-  <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+  <div class="imagen">
+    <img src="../../assets/logo.jpeg" alt="">
+  </div>
+
+
+  <h2>Elija una opcion  :</h2>
+
+  <div class="ion-padding ion-text-center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+    <ion-button>Auto</ion-button>
+    <ion-button (click)="goToMoto()">Moto</ion-button>
+    <ion-button>Colectivo</ion-button>
+    <ion-button>Camion</ion-button>
+  </div>
+
 </div>
